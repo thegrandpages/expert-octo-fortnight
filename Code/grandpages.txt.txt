@@ -7,12 +7,8 @@
 <title>Welcome To The Grand Pages! Enjoy Your Stay!</title>
 
 </head>
-
+<h1 style="color:red;fontsize:300%;"> THIS IS THE GRAND PAGES AND WE ARE ETERNAL !!!</h1>
 <body style="background-color:babyblue;">
-
-<video width="1920" height="1080" controls>
-	<source src="supply.mp4" type="video/mp4">
-</video>
 
 </body>
 </HTML>
