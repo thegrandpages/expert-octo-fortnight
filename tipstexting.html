@@ -6,14 +6,25 @@
 <TITLE>| Tips 4 T & D |</TITLE>
      
 <STYLE>
-.sectionA {
+
+ body {
+  background-color: blue;
+  animation: crash .5s linear 2s infinite normal;
+ }
+ 
+@keyframes crash {
+  from {background-color: blue;}
+  to {background-color: red;}
+} 
+   
+   .sectionA {
   background-color: red;
   animation: flash .5s linear 2s infinite normal;
  }
  
 @keyframes flash {
   from {background-color: red;}
-  to {background-color: black;}
+  to {background-color: blue;}
 } 
  
 </STYLE>
@@ -21,7 +32,7 @@
 
   <BODY>
 <DIV class="sectionA">
-<p style="color: #000000;"> (nothing)
+<p style="color: #000000;"> dont do it silly!
  </p>
    
  </BODY>
