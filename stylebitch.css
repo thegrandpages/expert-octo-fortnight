@@ -1,1 +1,86 @@
-shit goes here 
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("https://i.imgur.com/Aq9blez.jpg");
+  background-color: #96DED1;
+  } 
+ 
+hr { display: block; height: 1px;
+    border: 0; border-top: 3px solid #000000;
+    margin: 1em 0; padding: 0; } 
+ 
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("https://i.imgur.com/SCMgHR2.jpg");
+  overflow-x: hidden;
+  padding-top: 10px;
+  border: solid 4px #000000;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.vl {
+  border-right: 6px solid black;
+  height: 500px;
+ }
+ 
+@keyframes bgcolor {
+    0% {
+        background-color: #FF1010
+    }
+    33% {
+        background-color: #FFFFFF
+    }
+    66% {
+        background-color: #737373
+    }
+    100% {
+        background-color: #3C00FF
+    }
+}
+.polarbear {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 3.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+ 
+ @keyframes txtcolor {
+    0% {
+        color: #4286f4
+    }
+    100% {
+        color: #f4419d
+    }
+}
+.major {
+    -webkit-animation: txtcolor .25s infinite;
+    animation: txtcolor .25s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
