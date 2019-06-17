@@ -67,23 +67,24 @@
 
          @keyframes swutch 
      {
-         0%  { transform : scale(.5); }
-         25%  { transform : scale(1); }
-         50%  { transform : scale(2); }
-         75%  { transform : scale(1); }
-         100%  { transform : scale(.5); }
+         0%  { transform : scale(.5);-webkit-perspective: 100px; }
+         25%  { transform : scale(1);-webkit-perspective: 0px; }
+         50%  { transform : scale(2);-webkit-perspective: 200px; }
+         75%  { transform : scale(1);-webkit-perspective: 0px; }
+         100%  { transform : scale(.5);-webkit-perspective: 50px; }
      }    
 
          @-webkit-keyframes swutch     
      {
-         0%  { transform : scale(.5); }
-         25%  { transform : scale(1); }
-         50%  { transform : scale(2); }
-         75%  { transform : scale(1); }
-         100%  { transform : scale(.5); }
+          0%  { transform : scale(.5);-webkit-perspective: 100px; }
+         25%  { transform : scale(1);-webkit-perspective: 0px; }
+         50%  { transform : scale(2);-webkit-perspective: 200px; }
+         75%  { transform : scale(1);-webkit-perspective: 0px; }
+         100%  { transform : scale(.5);-webkit-perspective: 50px; }
      }
-     
+    
 </STYLE>
+    
 </HEAD>
 
   <BODY>
