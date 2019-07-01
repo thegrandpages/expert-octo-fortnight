@@ -1,5 +1,7 @@
 <?php
 
+//FOR WAMP SERVER 3.0 MAIN PAGE - rod
+
 // Page created by Shepard [Fabian Pijcke] <Shepard8@laposte.net>
 // Arno Esterhuizen <arno.esterhuizen@gmail.com>
 // and Romain Bourdon <rromain@romainbourdon.com>
