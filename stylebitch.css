@@ -85,3 +85,8 @@ hr { display: block; height: 1px;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
+
+.vertical { 
+            border-left: 5px solid black; 
+            height: 200px; 
+        } 
