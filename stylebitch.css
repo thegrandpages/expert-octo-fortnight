@@ -21,6 +21,7 @@ hr { display: block; height: 1px;
   overflow-x: hidden;
   border: solid 4px #000000;
   padding-bottom: 15px;
+  float: right;
 }
 
 .sidenav a {
