@@ -12,7 +12,7 @@ hr { display: block; height: 1px;
  
 .sidenav {
   height: 20px;
-  width: 120%;
+  width: 1080px;
   position: relative;
   z-index: 1;
   right: 0;
@@ -39,7 +39,8 @@ hr { display: block; height: 1px;
   margin-left: 160px;
   font-size: 15px;
   padding: 10px;
-  background-color:#800FFFFFF
+  background-color:#800FFFFFF;
+  width:1080px;
 }
 
 @media screen and (max-height: 450px) {
