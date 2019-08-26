@@ -13,7 +13,7 @@ hr { display: block; height: 1px;
 .sidenav {
   height: 30px;
   width: 100%;
-  position: absolute;
+  position: relative;
   z-index: 1;
   right: 0;
   left: 0;
