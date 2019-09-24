@@ -13,7 +13,6 @@ hr { display: block; height: 1px;
 .sidenav {
   height: 20px;
   width: 1000px;
-  align: center;
   z-index: 1;
   right: 0;
   left: 0;
@@ -21,7 +20,7 @@ hr { display: block; height: 1px;
   overflow-x: hidden;
   border: solid 4px #000000;
   padding-bottom: 15px;
-  float: right;
+  margin-left: 160px;
 }
 
 .sidenav a {
