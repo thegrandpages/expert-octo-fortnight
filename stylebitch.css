@@ -42,6 +42,7 @@ hr { display: block; height: 1px;
   padding: 10px;
   background-color:#800FFFFFF;
   width:1080px;
+  height:720px;
 }
 
 @media screen and (max-height: 450px) {
