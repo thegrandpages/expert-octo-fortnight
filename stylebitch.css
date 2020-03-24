@@ -76,15 +76,24 @@ hr { display: block; height: 1px;
  
  @keyframes txtcolor {
     0% {
-        color: #4286f4
+        color: #ff0000
+    }
+    25% {
+        color: #ff7f00
+    }
+    50% {
+        color: #00ff00
+    }
+    75% {
+        color: #4b0082
     }
     100% {
-        color: #f4419d
+        color: #ffff00
     }
 }
 .major {
-    -webkit-animation: txtcolor .25s infinite;
-    animation: txtcolor .25s infinite;
+    -webkit-animation: txtcolor 2s infinite;
+    animation: txtcolor 2s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 }
